@@ -175,7 +175,7 @@ def get_csv (file_path):
             print("Answer: ", answer)
             print("--------------------------------------------------\n\n")
 
-            # Save answer to CSV file
+            
             csv_writer.writerow([question, answer])
     return output_file
 
